@@ -3,3 +3,56 @@
   padding:0;
   box-sizing: border-box;
 }
+
+header{
+  background-color: #add8e6;
+  height: 70px;
+  padding: 20px;
+}
+
+.flex{
+  display: flex;
+}
+
+nav{
+  background-color: #daa520;
+  width: 60%;
+  margin: auto;
+  align-items: center;
+}
+
+.dotted{
+  border: black dotted;
+}
+
+.logo,
+.login{
+  width: 20%;
+}
+
+.login{
+  text-align: end;
+}
+
+.navbar{
+  text-align: center;
+  width: 60%;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  display: inline;
+}
+
+.jumbo{
+  background-color: #00008b;
+  width: 100%;
+  height: 400px;
+}
+
+.jumbo-pink{
+  background-color: #ee82ee;
+}
