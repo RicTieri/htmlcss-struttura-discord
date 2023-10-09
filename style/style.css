@@ -16,7 +16,7 @@ header{
 
 nav{
   background-color: #daa520;
-  width: 60%;
+  width: 80%;
   margin: auto;
   align-items: center;
 }
@@ -55,4 +55,38 @@ li{
 
 .jumbo-pink{
   background-color: #ee82ee;
+  height: 80%;
+  width: 60%;
+  margin: auto;
+}
+
+.two-elements{
+  width: 80%;
+  height: 500px;
+  margin: auto;
+}
+
+.pink-article{
+  background-color: #ffc0cb;
+  height: 80%;
+  width: 40%;
+  margin: auto;
+}
+
+.blue-article{
+  background-color: #1e90ff;
+  height: 80%;
+  width: 60%;
+  margin: auto;
+}
+
+.article-2{
+  background-color: #d3d3d3;
+  height: 500px;
+  margin: auto;
+  flex-direction: row-reverse;
+}
+
+.article-2 > article{
+  flex-direction: row-reverse;
 }
